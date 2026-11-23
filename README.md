@@ -39,9 +39,11 @@ flowchart LR
 │   ├── hiz_kontrol_simscape.slx # Fiziksel model (kaynak, motor, sensör)
 │   └── hiz_kontrol_pololu.slx   # Gerçek motor + 12 V doyma + yük testi
 ├── elektrik/
-│   ├── DCM-001-01_Baglanti_Semasi.pdf
-│   ├── DCM-001-01_Baglanti_Semasi.dwg
-│   └── DCM-001_BOM.xls
+│   ├── DCM-001-01_Baglanti_Semasi.pdf  # Şemanın PDF çıktısı
+│   ├── 01_Baglanti_Semasi.dwg          # AutoCAD Electrical çizimi
+│   ├── DC_Motor_Hiz_Kontrol.wdp        # AutoCAD Electrical proje dosyası
+│   ├── DC_Motor_Hiz_Kontrol.aepx       # AutoCAD Electrical proje ayarları
+│   └── DCM-001_BOM.xls                 # Malzeme listesi
 └── images/
 ```
 
